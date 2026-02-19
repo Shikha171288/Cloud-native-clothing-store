@@ -19,7 +19,7 @@ except Exception as e:
 
 @app.get("/")
 def get_root():
-    return { "msg": "Clothing Store v0.2" }
+    return { "msg": "Clothing Store v0.3" }
 
 # GET /categories 
 @app.get("/categories")
